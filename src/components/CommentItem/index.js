@@ -14,6 +14,8 @@ const CommentItem = props => {
     isFavorite,
   } = commentDetails
 
+  //ksr
+  
   const imgUrl = isFavorite
     ? 'https://assets.ccbp.in/frontend/react-js/comments-app/liked-img.png'
     : 'https://assets.ccbp.in/frontend/react-js/comments-app/like-img.png'
